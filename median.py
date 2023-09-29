@@ -10,7 +10,7 @@ def median(list1):
     if n % 2 != 0:
         return list1[n // 2]
     else:
-        return (list1[n // 2] + list[n // 2 - 1]) / 2
+        return (list1[n // 2] + list1[n // 2 - 1]) / 2
 
 while True:
     try:
