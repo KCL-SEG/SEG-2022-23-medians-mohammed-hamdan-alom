@@ -20,4 +20,6 @@ while True:
         print("Some input could not be converted to a number!")
     else:
         break
-print(numbers)
+
+#print(numbers)
+print(median(numbers))
